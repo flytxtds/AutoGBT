@@ -26,5 +26,5 @@ title={AutoGBT:Automatically Optimized Gradient Boosting Trees for Classifying L
 author={Jobin Wilson and Amit Kumar Meher and Bivin Vinodkumar Bindu and Manoj Sharma and Vishakha Pareek},
 year={2018},
 publisher={GitHub},
-howpublished={\url{https://github.com/flytxtds/AutoGBT}}
+howpublished={\url{ https://github.com/flytxtds/AutoGBT }}
 }
