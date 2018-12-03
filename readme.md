@@ -19,3 +19,12 @@ python3 AutoML3_ingestion_program/ingestion.py AutoML3_sample_data AutoML3_sampl
 For scoring, use the following command from the docker shell prompt\
 python3 AutoML3_scoring_program/score.py 'AutoML3_sample_data/*/' AutoML3_sample_predictions AutoML3_scoring_output
 
+If you used AutoGBT in one of your projects, please consider citing us:
+
+@misc{AutoGBT-2018,
+title={AutoGBT:Automatically Optimized Gradient Boosting Trees for Classifying Large Volume High Cardinality Data Streams under Concept-Drift},
+author={Jobin Wilson and Amit Kumar Meher and Bivin Vinodkumar Bindu and Manoj Sharma and Vishakha Pareek},
+year={2018},
+publisher={GitHub},
+howpublished={\url{https://github.com/flytxtds/AutoGBT}}
+}
