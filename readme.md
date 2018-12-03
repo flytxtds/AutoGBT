@@ -10,9 +10,9 @@ Team:\
 
 # How to Run
 Download the starter kit from the NIPS AutoML from competion webpage (https://competitions.codalab.org/competitions/20203#participate-get_starting_kit) and setup locally as instructed in the readme file within the starter kit. Copy the folder "AutoGBT" into the starting_k folder inside the starter kit. Install docker from https://docs.docker.com/get-started/ and issue the following command to invoke the docker image corresponding to python3 bundle for the challenge.\
-docker run -it -u root -v $(pwd):/app/codalab codalab/codalab-legacy:py3 bash\
+docker run -it -u root -v $(pwd):/app/codalab codalab/codalab-legacy:py3 bash
 
-For ingestion, use the following command from the docker shell prompt\
+For ingestion, use the following command from the docker shell prompt
 
 python3 AutoML3_ingestion_program/ingestion.py AutoML3_sample_data AutoML3_sample_predictions AutoML3_sample_ref AutoML3_ingestion_program AutoGBT\
 
