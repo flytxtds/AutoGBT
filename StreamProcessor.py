@@ -17,9 +17,6 @@ class Utils:
     Generic utility functions that our model would require
     """
     @staticmethod
-    def sigmoid(x):
-        return 1.0/(1.0+np.exp(-1.0*x))
-    @staticmethod
     def random_sample_in_order(X,y,removeperc,seed=1):
         if removeperc==0:
             return X,y
@@ -30,11 +27,7 @@ class Utils:
         print('AutoGBT[Utils]:Random sample length:',num_train_samples-rem_samples)
         return X[skip,:],y[skip,:]
 
-    @staticmethod
-    def random_sample_ndarray(X,removeperc,seed=1):
-        Xtrain,Xtest = train_test_split(X,test_size = removeperc, random_state=seed)
-        return Xtrain
-
+ 
     """
     A function to perform majority downsampling. in case of class-imbalance, 
     pick all examples from minority class and include random samples from 
@@ -607,7 +600,7 @@ class StreamSaveRetrainPredictor:
                 print('AutoGBT[StreamSaveRetrainPredictor]Chunking Prediction: processing split:'\
                       ,i,i+batch_size,'shape=',Xsplit.shape)
                 results = np.append(results,self.clf.predict_proba(self.stream_processor.transform(Xsplit))[:,1])
-                #del Xsplit
+                del Xsplit
             print("AutoGBT[StreamSaveRetrainPredictor]:RESULTS SHAPE:",np.array(results).shape)
             return np.array(results).T
 
