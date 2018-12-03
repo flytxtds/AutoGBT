@@ -151,8 +151,8 @@ class AutoHyperOptimizer:
               'hyperparameter tuning:',num_samples)
         if num_samples>self.max_samples:
             removeperc = 1.0 - (float(self.max_samples)/num_samples)
-            print ('AutoGBT[AutoHyperOptimizer]:Need to downsample for managing time:,\
-                   I will remove data percentage',removeperc)
+            print ('AutoGBT[AutoHyperOptimizer]:Need to downsample for managing time:,'\
+                   'I will remove data percentage',removeperc)
             XFull,yFull = Utils.random_sample_in_order(X,y.reshape(-1,1),removeperc)
             print('AutoGBT[AutoHyperOptimizer]:downsampled data length',len(XFull))
         else:
