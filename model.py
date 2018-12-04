@@ -86,12 +86,11 @@ class Model:
     def predict(self, F,datainfo,timeinfo):
         '''
         This function should provide predictions of labels on (test) data.
-        Here we just return random values...
         Make sure that the predicted values are in the correct format for the scoring
         metric. For example, binary classification problems often expect predictions
         in the form of a discriminant value (if the area under the ROC curve it the metric)
         rather that predictions of the class labels themselves. 
-        The function predict eventually casdn return probabilities or continuous values.
+        The function predict eventually returns probabilities or continuous values.
         '''
    
         overall_spenttime=time.time()-timeinfo[0]
