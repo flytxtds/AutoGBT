@@ -24,7 +24,7 @@ If you used AutoGBT in one of your projects, please consider citing us:
 
 @misc{AutoGBT-2018,
 title={AutoGBT:Automatically Optimized Gradient Boosting Trees for Classifying Large Volume High Cardinality Data Streams under Concept-Drift},
-author={Jobin Wilson and Amit Kumar Meher and Bivin Vinodkumar Bindu and Manoj Sharma and Vishakha Pareek},
+author={Jobin Wilson and Amit Kumar Meher and Bivin Vinodkumar Bindu and Manoj Sharma and Vishakha Pareek and Santanu Chaudhury and Brejesh Lall},
 year={2018},
 publisher={GitHub},
 howpublished={\url{ https://github.com/flytxtds/AutoGBT }}
