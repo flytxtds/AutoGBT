@@ -1,5 +1,7 @@
 # AutoGBT
-AutoGBT stands for Automatically Optimized Gradient Boosting Trees, and is used for AutoML in a lifelong machine learning setting to classify large volume high cardinality data streams under concept-drift. AutoGBT was developed by a joint team ('autodidact.ai') from Flytxt, Indian Institute of Technology Delhi and CSIR-CEERI as a part of NIPS 2018 AutoML Challenge (The 3rd AutoML Challenge: AutoML for Lifelong Machine Learning). Our team won the first prize in the challenge. More details of the challenge is available at https://www.4paradigm.com/competition/nips2018. The work will be presented at NIPS 2018 during the Competition Track session (https://nips.cc/Conferences/2018/Schedule?showEvent=10945)
+AutoGBT stands for Automatically Optimized Gradient Boosting Trees, and is used for AutoML in a lifelong machine learning setting to classify large volume high cardinality data streams under concept-drift. AutoGBT was developed by a joint team ('autodidact.ai') from Flytxt, Indian Institute of Technology Delhi and CSIR-CEERI as a part of NIPS 2018 AutoML Challenge (The 3rd AutoML Challenge: AutoML for Lifelong Machine Learning). Our team won the first prize in the challenge. More details of the challenge is available at https://www.4paradigm.com/competition/nips2018. The work will be presented at NIPS 2018 during the Competition Track session (https://nips.cc/Conferences/2018/Schedule?showEvent=10945).
+
+More details are available in our paper: https://link.springer.com/chapter/10.1007/978-3-030-29135-8_13
 
 Team:\
 1.Jobin Wilson (jobin.wilson@flytxt.com)\
@@ -22,10 +24,13 @@ python3 AutoML3_scoring_program/score.py 'AutoML3_sample_data/*/' AutoML3_sample
 
 If you used AutoGBT in one of your projects, please consider citing us:
 
-@misc{AutoGBT-2018,
-title={AutoGBT:Automatically Optimized Gradient Boosting Trees for Classifying Large Volume High Cardinality Data Streams under Concept-Drift},
-author={Jobin Wilson and Amit Kumar Meher and Bivin Vinodkumar Bindu and Manoj Sharma and Vishakha Pareek and Santanu Chaudhury and Brejesh Lall},
-year={2018},
-publisher={GitHub},
+@incollection{wilson2020automatically,
+  title={Automatically Optimized Gradient Boosting Trees for Classifying Large Volume High Cardinality Data Streams Under Concept Drift},
+  author={Wilson, Jobin and Meher, Amit Kumar and Bindu, Bivin Vinodkumar and Chaudhury, Santanu and Lall, Brejesh and Sharma, Manoj and Pareek, Vishakha},
+  booktitle={The NeurIPS'18 Competition},
+  pages={317--335},
+  year={2020},
+  publisher={Springer}
+}
 howpublished={\url{ https://github.com/flytxtds/AutoGBT }}
 }
