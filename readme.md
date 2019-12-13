@@ -32,5 +32,3 @@ If you used AutoGBT in one of your projects, please consider citing us:
   year={2020},
   publisher={Springer}
 }
-howpublished={\url{ https://github.com/flytxtds/AutoGBT }}
-}
